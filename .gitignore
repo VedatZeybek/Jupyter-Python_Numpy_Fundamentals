@@ -1,6 +1,24 @@
-# Python virtual environment
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environment ---
 .venv/
 venv/
-__pycache__/
-*.pyc
+
+# --- Jupyter ---
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- Sistem dosyaları ---
+.DS_Store
+Thumbs.db
+
+# --- Ortam ayar dosyaları ---
+.env
